@@ -97,7 +97,7 @@ void Renderer::setAssetManager(AAssetManager* massetmanager)
 	//Prepare asset manager
 	android_fopen_set_asset_manager(myassetManager);
 	
-	//Load 3d model
+	//Load 3d models
 	GLint cha;
 	//brick
 	mbrick.LoadFile("obj/brick.obj");	
